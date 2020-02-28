@@ -1,0 +1,104 @@
+*{padding:0;}
+body{font-family:arial;font-size:20px;line-height:25px;}
+#primary_menu{list-style:none}
+#primary_menu li{float:left}
+#primary_menu li a{color:#222;font-weight:bold;text-decoration:none;padding:20px 30px;display:block;transition:all 1s}
+#primary_menu li a:hover{background:#00374c;color:#fff;
+transform:scale(1.1)
+}
+
+.displaySize{width:1170px;margin:auto; overflow:hidden;}
+h1{
+	 
+	color:tomato;
+}
+h2{
+	 text-align: center;
+	color:tomato;
+}
+h3{
+	color:tomato;
+}
+h4{
+	color:tomato;
+}
+p{
+font-size:25px;
+	
+}
+
+@keyframes colorChange{
+    25%{color: orangered;}
+    50%{color: tomato;}
+    75%{color: turquoise;}
+    100%{color: yellow;}
+}
+
+nav#mainNav {
+    width: 100%;
+    overflow: hidden;
+    background: #00bb98;
+    border-bottom: 2px solid #c0c0c0;
+}
+menu#menuContainer{
+	width:700px;
+	float:right;
+	
+}
+
+
+.food{
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    background:linear-gradient(#00000076,#00000076),
+	linear-gradient(#00000076,#00000076); 
+	background-position:left-top;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 4px 10px;
+    border-radius: 5px;
+    color:white;}
+
+
+ .about{
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    background:linear-gradient(#00000076,#00000076),
+	linear-gradient(#00000076,#00000076);
+	background-position:left-top;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 4px 10px;
+    border-radius: 5px;
+    color:white;
+	}
+	
+ .hobby{
+    height: 40vh;
+    display: flex;
+    justify-content: left;
+    background:linear-gradient(#00000076,#00000076),
+	linear-gradient(#00000076,#00000076); 
+	background-position:left-top;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 2px 4px 10px;
+    border-radius: 5px;
+    color:white;
+	}
+
+
+
+
+.headline{
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2, 25, 32);
+    color:white;
+    text-transform: uppercase;
+}
+
